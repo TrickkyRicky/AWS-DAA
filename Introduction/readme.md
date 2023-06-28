@@ -38,7 +38,11 @@
 ### AWS Availability Zones
 
 - Each region has many availability zones, usually 3 this being the min and a max of 6
-  - Exmaple: ap-southeast-2a, ap-southeast-2b, ap-southeast-2c
+  - Example: ap-southeast-2a, ap-southeast-2b, ap-southeast-2c
 - Each Availability zone will have one or more discrete data centers with less power, networking and connectivity
 - Since the zones are seperate it can prevent code disasters since the zones are isolated
 - The data centers are conntected with bandwidth and low latency
+
+### AWS Console and Services
+
+- Some services require global services and some don't for example route 53 vs Ec2 and the view can change based on that region
